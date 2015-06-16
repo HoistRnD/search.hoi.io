@@ -1,0 +1,48 @@
+{
+  "name": "search.hoi.io",
+  "version": "0.0.0",
+  "description": "Hoist Search API",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test",
+    "travis-cov": {
+      "threshold": 1
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hoist/search.hoi.io.git"
+  },
+  "author": "Hoist Apps Ltd",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/hoist/search.hoi.io/issues"
+  },
+  "homepage": "https://github.com/hoist/search.hoi.io",
+  "dependencies": {
+    "express": "~3.4.6",
+    "grunt": "~0.4.2",
+    "hoist-core": "git+ssh://git@github.com:hoist/hoist-core",
+    "config": "~0.4.35",
+    "glob": "~3.2.8",
+    "underscore": "*",
+    "raygun": "~0.4.1",
+    "mongodb": "^1.3.23",
+    "passport": "~0.2.0",
+    "newrelic": "^1.7.1"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "request": "~2.33.0",
+    "time-grunt": "~0.2.9",
+    "load-grunt-tasks": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.9.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "blanket": "*",
+    "chai": "~1.8.1",
+    "chai-as-promised": "~4.1.0",
+    "supertest": "*"
+  }
+}
